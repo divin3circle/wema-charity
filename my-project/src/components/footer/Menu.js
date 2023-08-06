@@ -12,14 +12,14 @@ export const PARTNERS = [
 ]
 
 export const TEAM = [
-    {name: "Eunice Ouma", link:"#"},
-    { name: "Patrick Bro", link:"#"},
-    {name: "Sister Faith", link:"#"},
-    {name: "Bro Joseph", link:"#"},
-    {name: "Christine Tush", link:"#"},
-    {name: "Joseph Ngulu", link:"#"},
-    {name: "Mercy Maria", link:"#"},
-]
+  { name: "Christine Tush", link: "#" },
+  { name: "Mercy Maira", link: "#" },
+  { name: "Eunice Ouma", link: "#" },
+  { name: "Patrick Bro", link: "#" },
+  { name: "Sister Faith", link: "#" },
+  { name: "Bro Joseph", link: "#" },
+  { name: "Joseph Ngulu", link: "#" },
+];
 
 export const CAUSES = [
     {name: "Education", link:"#"},

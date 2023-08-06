@@ -27,7 +27,7 @@ const Team = () => {
       { name: "Founder", desc: "Dan Wema" },
       { name: "Chairperson", desc: "Christine Tush" },
       { name: "Ass. Chairperson", desc: "Bro Joseph" },
-      { name: "Finance Chair", desc: "Mercy Maria" },
+      { name: "Finance Chair", desc: "Mercy Maira" },
       { name: "Treasurer", desc: "Eunice Ouma" },
       { name: "Welfare", desc: "Sister Faith" },
       { name: "Coordinator", desc: "Joseph Ngulu" },
