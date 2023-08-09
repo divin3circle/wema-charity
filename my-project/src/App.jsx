@@ -12,6 +12,7 @@ import Team from "./components/ui/Team";
 import DonateModal from "./components/modals/DonateModal";
 import { useState } from "react";
 import GalleryModal from "./components/modals/GalleryModal";
+import Admin from "./components/ui/Admin";
 
 function App() {
    useEffect(() => {
@@ -30,6 +31,7 @@ function App() {
       <Join />
       <Past galleryModal={galleryModal} setGalleryModal={setGalleryModal} />
       <Team />
+      <Admin/>
       <Contact />
       <Footer donateModal={donateModal} setDonateModal={setDonateModal} />
       <DonateModal

@@ -1,11 +1,14 @@
 import { AiFillFacebook, AiFillMail, AiFillPhone, AiFillYoutube, AiOutlineTwitter } from "react-icons/ai"
 import {ImLocation2} from 'react-icons/im'
 import {IoLogoWhatsapp } from 'react-icons/io'
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
     const onSubmit = (e)=>{
         e.preventDefault();
         e.currentTarget.reset();
+        toast("Your response was submitted");
     }
   return (
     <div id="contact" className=" antialiased bg-white mt-4">
@@ -130,6 +133,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+    <ToastContainer/>
     </div>
   );
 }

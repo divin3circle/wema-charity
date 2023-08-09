@@ -7,7 +7,8 @@ const Footer = ({ donateModal, setDonateModal }) => {
   const onSubmit = (e) => {
     e.currentTarget.reset();
   };
-   const showDonateModal = () => {
+   const showDonateModal = (e) => {
+      e.preventDefault();
      setDonateModal(!donateModal);
    };
   return (
@@ -24,7 +25,7 @@ const Footer = ({ donateModal, setDonateModal }) => {
               className="bg-gray-800 text-white px-4 py-2.5 rounded-lg focus:outline-none focus:ring-2 sm:mr-5 mr-1 lg:mb-0 xxs:mb-4  focus:ring-green-500 focus:border-transparent w-full sm:w-72"
             />
             <button
-              type="submit"
+              /* type="submit" */
               /* onSubmit={onSubmit} */
               onClick={showDonateModal}
               className="bg-green-500 hover:bg-transparent duration-150 px-5 py-2.5  rounded-md text-white hover:scale-90 hover:ring-2 ring-green-500 md:w-auto w-full"

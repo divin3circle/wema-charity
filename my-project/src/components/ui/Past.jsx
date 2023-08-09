@@ -35,14 +35,19 @@ const Past = ({galleryModal, setGalleryModal}) => {
               Nairobi....
             </p>
           </div>
-          <div className="absolute xxs:bottom-10 md:bottom lg:left-1 xxs:left-1 md:right-36 text-white font-semibold text-lg ">
-            <button onClick={showGalleryModal} className="border-2  rounded-full hover:scale-105 hover:bg-green-500 border-green-500 hover p-2 px-4 ease-in duration-150 hover:text-black">
+          <div className="absolute  xxs:bottom-8 md:bottom-4 lg:left-1 xxs:left-1 md:right-36 text-white font-semibold text-lg ">
+            <button
+              onClick={showGalleryModal}
+              className="border-2 rounded-full hover:scale-105 hover:bg-green-500 border-green-500 hover p-1 px-4 ease-in duration-150 hover:text-black"
+            >
               View Details
             </button>
           </div>
         </div>
-        <div className="md:h-[40vh] 
-         xxs:h-[30vh] relative">
+        <div
+          className="md:h-[40vh] 
+         xxs:h-[30vh] relative"
+        >
           <div className="md:h-[40vh] xxs:h-[30vh] md:min-w-[40vw]">
             <img
               src={event1}
@@ -61,15 +66,21 @@ const Past = ({galleryModal, setGalleryModal}) => {
               living with...
             </p>
           </div>
-          <div className="absolute xxs:bottom-10 md:bottom lg:left-1 xxs:left-1 md:right-36 text-white font-semibold text-lg ">
-            <button onClick={showGalleryModal} className="border-2  rounded-full hover:scale-105 hover:bg-green-500 border-green-500 hover p-2 px-4 ease-in duration-150 hover:text-black">
+          <div className="absolute xxs:bottom-8 md:bottom-4 lg:left-1 xxs:left-1 md:right-36 text-white font-semibold text-lg ">
+            <button
+              onClick={showGalleryModal}
+              className="border-2  rounded-full hover:scale-105 hover:bg-green-500 border-green-500 hover p-1 px-4 ease-in duration-150 hover:text-black"
+            >
               View Details
             </button>
           </div>
         </div>
       </div>
       <div className="flex justify-center my-2">
-        <button onClick={showGalleryModal} className="bg-green-500 text-xl font-semibold p-4 rounded-xl hover:bg-transparent border-green-500 border ease-in duration-150">
+        <button
+          onClick={showGalleryModal}
+          className="bg-green-500 text-xl font-semibold p-4 rounded-xl hover:bg-transparent border-green-500 border ease-in duration-150"
+        >
           View Event Gallery
         </button>
       </div>
