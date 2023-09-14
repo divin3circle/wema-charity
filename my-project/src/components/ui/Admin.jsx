@@ -9,7 +9,7 @@ const Admin = () => {
           <ul className="flex flex-col justify-center items-center font-semibold p-1">
             <li className="p-2">Dan Wema - Founder</li>
             <li className="p-2">Tush Christine - Chairlady</li>
-            <li className="p-2">Mercy Maira - Chairlady</li>
+            <li className="p-2">Mercy Maira - Finance Manager</li>
             <li className="p-2">Brother Joseph - Assistant Chair</li>
             <li className="p-2">Eunice Ouma - Welfare Treasurer</li>
             <li className="p-2">Humphrey Muhusa - Secretary</li>
