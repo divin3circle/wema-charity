@@ -1,4 +1,3 @@
-
 const Admin = () => {
   return (
     <div>
@@ -10,6 +9,7 @@ const Admin = () => {
           <ul className="flex flex-col justify-center items-center font-semibold p-1">
             <li className="p-2">Dan Wema - Founder</li>
             <li className="p-2">Tush Christine - Chairlady</li>
+            <li className="p-2">Mercy Maira - Chairlady</li>
             <li className="p-2">Brother Joseph - Assistant Chair</li>
             <li className="p-2">Eunice Ouma - Welfare Treasurer</li>
             <li className="p-2">Humphrey Muhusa - Secretary</li>
@@ -52,7 +52,7 @@ const Admin = () => {
             </h1>
             <ul className="p-1 md:p-2 font-light">
               <li>Dommitilah</li>
-              <li>Geofrey Mulokhosi</li>
+              <li>Geofrey Mulokosi</li>
               <li>Brother Jonny</li>
             </ul>
           </div>
@@ -79,6 +79,6 @@ const Admin = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Admin
+export default Admin;
