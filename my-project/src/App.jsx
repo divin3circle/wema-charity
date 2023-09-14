@@ -1,4 +1,4 @@
-import Navbar from "./components/header/Navbar"
+import Navbar from "./components/header/Navbar";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -15,13 +15,13 @@ import GalleryModal from "./components/modals/GalleryModal";
 import Admin from "./components/ui/Admin";
 
 function App() {
-   useEffect(() => {
-     AOS.init();
-     AOS.refresh();
-   }, []);
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
 
-   const [donateModal, setDonateModal] = useState(false);
-   const [galleryModal, setGalleryModal]= useState(false);
+  const [donateModal, setDonateModal] = useState(false);
+  const [galleryModal, setGalleryModal] = useState(false);
 
   return (
     <>
@@ -31,7 +31,7 @@ function App() {
       <Join />
       <Past galleryModal={galleryModal} setGalleryModal={setGalleryModal} />
       <Team />
-      <Admin/>
+      <Admin />
       <Contact />
       <Footer donateModal={donateModal} setDonateModal={setDonateModal} />
       <DonateModal
@@ -47,4 +47,4 @@ function App() {
   );
 }
 
-export default App
+export default App;
