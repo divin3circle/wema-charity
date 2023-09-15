@@ -1,6 +1,5 @@
-
-const DonateModal = ({visible,donateModal, setDonateModal }) => {
-    if(!visible) return null;
+const DonateModal = ({ visible, donateModal, setDonateModal }) => {
+  if (!visible) return null;
   return (
     <div
       data-aos="zoom-out"
@@ -15,7 +14,7 @@ const DonateModal = ({visible,donateModal, setDonateModal }) => {
           FOUNDER: DAN WEMA
         </h1>
         <h1 className=" text-center text-lg md:text-xl font-semibold p-2">
-          CONTACT: +254 79 163 382
+          CONTACT: +254 791 863 382
         </h1>
         <h1 className=" text-center text-lg md:text-xl font-semibold p-2">
           EMAIL: danyikuri@gmail.com
@@ -27,6 +26,7 @@ const DonateModal = ({visible,donateModal, setDonateModal }) => {
         <p className="text-center"> TILL NUMBER: 9579117</p>
         <h1 className="mt-2 text-center font-semibold">SEND MONEY</h1>
         <h1 className="text-center">0791863382</h1>
+        <h1 className="text-center">NAME: DANIEL WANYONYI</h1>
         <h1 className="text-lg md:text-xl text-center text-green-700 font-semibold p-2">
           PAYPAL SUPPORT
         </h1>
@@ -43,6 +43,6 @@ const DonateModal = ({visible,donateModal, setDonateModal }) => {
       </div>
     </div>
   );
-}
+};
 
-export default DonateModal
+export default DonateModal;
